@@ -1,7 +1,21 @@
 .Main-content {
-    width: 85%;
+    position: relative;
+    width: 65%;
     height: 100vh;
     margin: 0 auto;
     padding: 75px 15px 15px 15px;
     background-color: #fff;
+}
+
+.Notice-message {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Notice-message p {
+    margin-top: 20px;
 }
