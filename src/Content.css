@@ -6,16 +6,3 @@
     padding: 75px 15px 15px 15px;
     background-color: #fff;
 }
-
-.Notice-message {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.Notice-message p {
-    margin-top: 20px;
-}
